@@ -36,3 +36,20 @@ h2 {
     margin: 3rem auto;
     text-align: center;
 }
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 20px;
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* または "contain" */
+}
+.grid-item {
+    width: 100%; /* 追加 */
+    max-width: 100%; /* 追加 */
+}
